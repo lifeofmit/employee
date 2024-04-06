@@ -12,6 +12,20 @@
       "email": "joshi",
       "phone": "848484",
       "active": true
+    },
+    {
+      "id": "c752",
+      "name": "max",
+      "email": "max@gmail.com",
+      "phone": "93249823749",
+      "active": true
+    },
+    {
+      "id": "df49",
+      "name": "Robert",
+      "email": "robert@gmail.com",
+      "phone": "897689854",
+      "active": true
     }
   ]
 }
