@@ -10,7 +10,8 @@ const EmpCreate = () => {
                             <div className="card-title">
                                 <h2>Employee Create</h2>
                             </div>
-                            <div className="card-body">
+                            <div className="card-body"> 
+                            
                                 <div className="row">
 
                                     <div className="col-lg-12">
