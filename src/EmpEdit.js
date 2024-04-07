@@ -11,6 +11,10 @@ const EmpEdit = () => {
             return res.json();
         }).then((resp) => {
             idchange(resp.id);
+            namechange(resp.name);
+            emailchange(resp.email);
+            phonechange(resp.phone);
+            activechange(resp.isactive);
         }).catch((err) => {
             console.log(err.message);
         })
