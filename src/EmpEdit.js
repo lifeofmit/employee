@@ -31,11 +31,11 @@ const EmpEdit = () => {
 
     const handlesubmit=(e)=>{
         e.preventDefault();
-        const empdata={name,email,phone,active};
+        const empdata={id,name,email,phone,active};
         
 
-        fetch("http://localhost:8000/employee",{
-            method:"POST",
+        fetch("http://localhost:8000/employee/"+ empid,{
+            method:"PUT",
             headers:{"content-type":"application/json"},
             body:JSON.stringify(empdata)
         }).then((res)=>{
