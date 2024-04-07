@@ -9,7 +9,7 @@ const EmpListing = () => {
       navigate("/employee/detail/"+id);
     }
     const LoadEdit=(id)=>{
-
+      navigate("/employee/edit/"+id);
     }
     const Removefunction=(id)=>{
 
